@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+    --heading:#25324B;
+    --navLink:#515B6F;
+    --banner:#F8F8FD;
+    --primary:#4640DE;
+}
+.heading{color:var(--heading);}
+.navLink{color:var(--navLink);}
+.banner-bg{background-color:var(--banner);}
+.primary-bg{background-color: var(--primary);}
+.primary{color: var(--primary);}
