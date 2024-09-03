@@ -1,14 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: clashDisplay;
+    src: url(.\assets\fonts\ClashDisplay-Variable.ttf);
+}
+
 :root{
     --heading:#25324B;
     --navLink:#515B6F;
     --banner:#F8F8FD;
     --primary:#4640DE;
+    --lightBlue:#26A4FF;
+    --grey:#515B6F;
 }
+
+/* fonts */
+*{
+    font-family: "Epilogue", sans-serif;
+}
+.clashDisplay{font-family:clashDisplay;}
+
+/* colors - background colors */
 .heading{color:var(--heading);}
 .navLink{color:var(--navLink);}
 .banner-bg{background-color:var(--banner);}
 .primary-bg{background-color: var(--primary);}
 .primary{color: var(--primary);}
+.lightBlue{color:var(--lightBlue);}
+.grey{color:var(--grey);}
+
