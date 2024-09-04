@@ -15,6 +15,10 @@
     --primary:#4640DE;
     --lightBlue:#26A4FF;
     --grey:#515B6F;
+    --border:#D6DDEB;
+    --subtitle:#7C8493;
+    --typeBadge:#56CDAD;
+    --typeBadge-bg:rgba(86, 205, 173, 0.1);
 }
 
 /* fonts */
@@ -24,11 +28,16 @@
 .clashDisplay{font-family:clashDisplay;}
 
 /* colors - background colors */
+.typeBadge{color:var(--typeBadge);}
+.typeBadge-bg{background-color: var(--typeBadge-bg);}
+.subtitle{color:var(--subtitle);}
+.border-b{border-color: var(--border);}
 .heading{color:var(--heading);}
 .heading-bg{background-color:var(--heading);}
 .navLink{color:var(--navLink);}
 .banner-bg{background-color:var(--banner);}
 .primary-bg{background-color: var(--primary);}
 .primary{color: var(--primary);}
+.primary-b{border-color: var(--primary);}
 .lightBlue{color:var(--lightBlue);}
 .grey{color:var(--grey);}

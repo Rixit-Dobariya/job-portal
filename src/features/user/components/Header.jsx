@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 const Header = () => {
   return (
     <div className="banner-bg">  
-        <div className='container mx-auto flex p-3 px-10 gap-5 banner-bg items-center justify-between'>
+        <div className='container mx-auto  px-10 flex p-3 gap-5 banner-bg items-center justify-between'>
             <div className='flex gap-10'>
                 <Link to='/' className='flex gap-2 justify-center'>
                     <img src="logo.png" alt="" />
