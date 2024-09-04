@@ -5,12 +5,12 @@ const Header = () => {
     <div className="banner-bg">  
         <div className='container mx-auto flex p-3 px-10 gap-5 banner-bg items-center justify-between'>
             <div className='flex gap-10'>
-                <Link to='/index' className='flex gap-2 justify-center'>
+                <Link to='/' className='flex gap-2 justify-center'>
                     <img src="logo.png" alt="" />
                     <h1 className='text-2xl font-bold heading'>JobHuntly</h1>
                 </Link>
                 <div className='navLink flex gap-5 font-medium text-base items-center'>
-                    <Link>
+                    <Link to='jobs/'>
                         Find Jobs
                     </Link>
                     <Link>    
