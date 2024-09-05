@@ -19,6 +19,8 @@
     --subtitle:#7C8493;
     --typeBadge:#56CDAD;
     --typeBadge-bg:rgba(86, 205, 173, 0.1);
+    --footer-bg:#202430;
+    --badge-bg:#F8F8FD;
 }
 
 /* fonts */
@@ -28,10 +30,17 @@
 .clashDisplay{font-family:clashDisplay;}
 
 /* colors - background colors */
+.footer-bg{
+    background-color: var(--footer-bg);
+}
+.badge-bg{background-color: var(--badge-bg);}
+.footer-b{border-color: var(--footer-bg);}
 .typeBadge{color:var(--typeBadge);}
 .typeBadge-bg{background-color: var(--typeBadge-bg);}
 .subtitle{color:var(--subtitle);}
 .border-b{border-color: var(--border);}
+.border-bg{background-color: var(--border);}
+.text-border{color: var(--border);}
 .heading{color:var(--heading);}
 .heading-bg{background-color:var(--heading);}
 .navLink{color:var(--navLink);}
@@ -41,3 +50,9 @@
 .primary-b{border-color: var(--primary);}
 .lightBlue{color:var(--lightBlue);}
 .grey{color:var(--grey);}
+
+.page-active{
+    border-radius: 8px;
+    background-color: var(--primary);
+    color:white;
+}

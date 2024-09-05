@@ -13,7 +13,7 @@ const Header = () => {
                     <Link to='jobs/'>
                         Find Jobs
                     </Link>
-                    <Link>    
+                    <Link to='companies/'>    
                         Browse Companies
                     </Link>
                 </div>

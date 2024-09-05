@@ -1,10 +1,13 @@
 import React from 'react'
-import Header from '../components/Header';
 import Hero from '../components/Hero';
+import CompanyList from '../components/CompanyList';
 
 const HomePage = () => {
   return (
-    <Hero page='home'/>
+    <>
+      <Hero page='home'/>
+      <CompanyList />
+    </>
   )
 }
 

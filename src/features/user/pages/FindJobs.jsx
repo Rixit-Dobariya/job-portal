@@ -1,7 +1,7 @@
 import React from 'react'
 import Hero from '../components/Hero'
 import Filter from '../components/Filter'
-import FindJobsHeading from '../components/FindJobsHeading'
+import PageHeading from '../components/PageHeading'
 import JobList from '../components/JobList';
 
 const FindJobs = () => {
@@ -11,7 +11,7 @@ const FindJobs = () => {
       <div className='flex container mx-auto justify-between px-10 my-16 gap-7'>
         <div className="w-1/4"><Filter /></div>
         <div className="flex-grow flex flex-col gap-5">
-          <FindJobsHeading />
+          <PageHeading />
           <JobList />
         </div>
       </div>
