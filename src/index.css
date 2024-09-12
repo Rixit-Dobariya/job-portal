@@ -13,6 +13,7 @@
     --navLink:#515B6F;
     --banner:#F8F8FD;
     --primary:#4640DE;
+    --primary-light:#E9EBFD;
     --lightBlue:#26A4FF;
     --grey:#515B6F;
     --border:#D6DDEB;
@@ -50,6 +51,7 @@
 .primary-b{border-color: var(--primary);}
 .lightBlue{color:var(--lightBlue);}
 .grey{color:var(--grey);}
+.primary-light-bg{background-color: var(--primary-light);}
 
 .page-active{
     border-radius: 8px;

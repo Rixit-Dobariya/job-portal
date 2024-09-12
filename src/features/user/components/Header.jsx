@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import {Link, NavLink } from 'react-router-dom'
 const Header = () => {
   return (
     <div className="banner-bg">  
@@ -10,20 +10,19 @@ const Header = () => {
                     <h1 className='text-2xl font-bold heading'>JobHuntly</h1>
                 </Link>
                 <div className='navLink flex gap-5 font-medium text-base items-center'>
-                    <Link to='jobs/'>
+                    <NavLink to='jobs/' className={({isActive})=>isActive?'primary font-semibold':''}>
                         Find Jobs
-                    </Link>
-                    <Link to='companies/'>    
+                    </NavLink>
+                    <NavLink to='companies/'  className={({isActive})=>isActive?'primary font-semibold':''}>    
                         Browse Companies
-                    </Link>
+                    </NavLink>
                 </div>
             </div>
-            
             <div className='navLink flex gap-5 font-medium  px-3 py-2 items-center'>
-                <Link className='primary p-2'>
+                <Link to='/login' className='primary p-2'>
                     Login
                 </Link>
-                <Link className='primary-bg text-white px-5 py-2'>    
+                <Link to='/register' className='primary-bg text-white px-5 py-2'>    
                     Sign Up
                 </Link>
             </div>

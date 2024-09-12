@@ -3,7 +3,6 @@ import { FaArrowRight } from "react-icons/fa";
 
 const CompanyIntro = () => {
   return (
-    <div className='banner-bg'>
         <div className="py-10 container mx-auto px-10">
             <div className='flex items-center'>
                 <div className="basis-1/2 pr-20">
@@ -32,7 +31,6 @@ const CompanyIntro = () => {
                 </div>
             </div>
         </div>
-    </div>
   )
 }
 

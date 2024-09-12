@@ -10,10 +10,10 @@ const JobDetailsHeading = () => {
     };
   return (
     <div className="banner-bg">
-        <div className=" py-10  container mx-auto px-10">
-            <div className='flex-col flex'>
-                <div className='subtitle'>Home/jobs/<span className='text-black'>{jobDetails.title}</span></div>
-                <div className='bg-white p-5 flex gap-5 items-center'>
+        <div className="container mx-auto px-10">
+            <div className='flex-col flex py-5'>
+                <div className='subtitle mb-5'>Home / jobs / <span className='text-black'>{jobDetails.title}</span></div>
+                <div className='bg-white p-5 flex gap-5 items-center mb-5'>
                     <div>
                         <img src={jobDetails.logo} alt="" />
                     </div>

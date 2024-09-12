@@ -6,7 +6,7 @@ import Label2 from '../components/Label2';
 
 const JobDetailsBody = ({description='Stripe is looking for Social Media Marketing expert to help manage our online networks. You will be responsible for monitoring our social media channels, creating content, finding effective ways to engage the community and incentivize others to engage on our channels.',capacity=10,value=5}) => {
   return (
-    <div className="py-10 container mx-auto px-10">
+    <div className="pt-10 container mx-auto px-10">
         <div className="flex gap-16">
             <div className='basis-2/3 flex flex-col gap-5'>
                 <div>
@@ -71,16 +71,17 @@ const JobDetailsBody = ({description='Stripe is looking for Social Media Marketi
                     </div>
                     <div className="border-bg border-t border my-9"></div>
                     <h3 className='text-3xl heading font-semibold clashDisplay mb-6'>Required Skills</h3>
-                        <div className="flex gap-2 flex-wrap">
-                            <Label2 text='Project Management'/>
-                            <Label2 text='Copy writing'/>
-                            <Label2 text='Social Media Marketing'/>
-                            <Label2 text='English'/>
-                            <Label2 text='Copy Editing'/>
-                        </div>
+                    <div className="flex gap-2 flex-wrap">
+                        <Label2 text='Project Management'/>
+                        <Label2 text='Copy writing'/>
+                        <Label2 text='Social Media Marketing'/>
+                        <Label2 text='English'/>
+                        <Label2 text='Copy Editing'/>
+                    </div>
                 </div>
             </div>
         </div>
+        <div className="border-bg border-t border mt-10"></div>
     </div>
   )
 }

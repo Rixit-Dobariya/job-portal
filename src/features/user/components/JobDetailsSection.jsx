@@ -13,8 +13,8 @@ const JobDetailsSection = ({title="Responsibility",arr=[
         <h3 className='text-3xl heading font-semibold clashDisplay mb-5'>{title}</h3>
         <div className='subtitle flex flex-col gap-2'>
             {
-                arr.map(ele =>{
-                return <div className='flex gap-2'>
+                arr.map((ele, index) =>{
+                return <div className='flex gap-2' key={index}>
                     <FaRegCheckCircle className='text-green-400'/> 
                     <p>{ele}</p>
                 </div>
